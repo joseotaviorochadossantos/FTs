@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Fotos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page">
+        <header class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">Galeria personalizada</p>
+                <h1>Seu site de fotos com cara de destaque</h1>
+                <p>Uma base bonita para você colocar as fotos dos seus amigos e deixar tudo organizado.</p>
+                <a href="#galeria" class="btn">Ver galeria</a>
+            </div>
+        </header>
+
+        <main>
+            <section class="intro">
+                <h2>Pronto para receber suas melhores fotos</h2>
+                <p>Esta página já vem com um visual moderno, responsivo e com um efeito de visualização simples para cada imagem.</p>
+            </section>
+
+            <section id="galeria" class="gallery-section" aria-label="Galeria de fotos">
+                <div class="gallery-intro">
+                    <h2>Seus grupos em destaque</h2>
+                    <p>Os 5 primeiros cards ficam maiores para destacar os momentos mais marcantes.</p>
+                </div>
+
+                <div id="featuredGallery" class="featured-grid"></div>
+                <div id="extraGallery" class="small-grid"></div>
+            </section>
+        </main>
+    </div>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+        <button class="close-btn" id="closeLightbox" aria-label="Fechar imagem">×</button>
+        <img id="lightboxImage" src="" alt="">
+    </div>
+
+    <script src="java.js"></script>
+</body>
+</html>
