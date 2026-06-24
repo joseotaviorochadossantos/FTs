@@ -8,13 +8,13 @@ const fallbackImage = 'https://images.unsplash.com/photo-1516321318423-f06f85e50
 
 // Lista manual dos 100 cards. Troque a imagem de cada um editando a linha correspondente.
 const galleryItems = [
-    { title: 'GRUPO 1', text: 'O primeiro momento mais marcante.', image: 'img/1.jpg' },
-    { title: 'GRUPO 2', text: 'O primeiro momento mais marcante.', image: 'img/2.jpg' },
-    { title: 'GRUPO 3', text: 'O primeiro momento mais marcante.', image: 'img/3.jpg' },
-    { title: 'GRUPO 4', text: 'O primeiro momento mais marcante.', image: 'img/4.jpg' },
-    { title: 'GRUPO 5', text: 'O primeiro momento mais marcante.', image: 'img/5.jpg' },
-    { title: 'GRUPO 6', text: 'O primeiro momento mais marcante.', image: 'img/6.jpeg' },
-    { title: 'C 7', text: 'O primeiro momento mais marcante.', image: 'img/7.jpg' },
+    { title: 'GRUPO 1', text: 'Melhores amigas', image: 'img/1.jpg' },
+    { title: 'GRUPO 2', text: 'amigos e amigas', image: 'img/2.jpg' },
+    { title: 'GRUPO 3', text: 'BONDE DOS MENOR TONY COUNTRY', image: 'img/3.jpg' },
+    { title: 'GRUPO 4', text: 'Almoço com os amigos, o ultimo...', image: 'img/4.jpg' },
+    { title: 'GRUPO 5', text: 'Recepção dos calouros.', image: 'img/5.jpg' },
+    { title: 'GRUPO 6', text: 'Primeira vez no lab de quimica(apredi a ligar um fogão)', image: 'img/6.jpeg' },
+    { title: 'Pedro', text: 'queiemi ele com uma massinha de vidro', image: 'img/7.jpg' },
     { title: 'GRUPO 8', text: 'O primeiro momento mais marcante.', image: 'img/8.jpg' },
     { title: 'GRUPO 9', text: 'O primeiro momento mais marcante.', image: 'img/9.jpg' },
     { title: 'GRUPO 10', text: 'O primeiro momento mais marcante.', image: 'img/10.jpg' },
